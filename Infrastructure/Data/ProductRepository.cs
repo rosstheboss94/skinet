@@ -6,7 +6,7 @@ namespace Infrastructure.Data;
 
 public class ProductRepository : IProductRepository
 {
-       private readonly StoreContext _ctx;
+    private readonly StoreContext _ctx;
 
     public ProductRepository(StoreContext ctx)
     {
