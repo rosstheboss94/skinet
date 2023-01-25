@@ -5,6 +5,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
@@ -20,6 +28,13 @@
 
   <ItemGroup>
     <Folder Include="wwwroot" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Build\net6.0\API.deps.json" />
+    <_ContentIncludedByDefault Remove="Build\net6.0\API.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="Build\net6.0\API.staticwebassets.runtime.json" />
+    <_ContentIncludedByDefault Remove="Build\net6.0\appsettings.Development.json" />
   </ItemGroup>
 
 </Project>

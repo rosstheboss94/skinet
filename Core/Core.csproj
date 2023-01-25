@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\Core.deps.json" />
+    <Content Include="bin\Debug\net6.0\Core.dll" />
+    <Content Include="bin\Debug\net6.0\Core.pdb" />
+  </ItemGroup>
+
 </Project>

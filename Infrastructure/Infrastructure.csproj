@@ -18,6 +18,63 @@
     </Reference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\Core.dll" />
+    <Content Include="bin\Debug\net6.0\Core.pdb" />
+    <Content Include="bin\Debug\net6.0\Infrastructure.deps.json" />
+    <Content Include="bin\Debug\net6.0\Infrastructure.dll" />
+    <Content Include="bin\Debug\net6.0\Infrastructure.pdb" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Core.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Connections.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.HostFiltering.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Http.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Http.Extensions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.HttpOverrides.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Routing.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Routing.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.IIS.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.IISIntegration.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Core.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.AspNetCore.WebUtilities.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Features.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Composite.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.ObjectPool.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll" />
+    <Content Include="bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll" />
+    <Content Include="bin\Debug\net6.0\System.Diagnostics.EventLog.dll" />
+    <Content Include="bin\Debug\net6.0\System.IO.Pipelines.dll" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

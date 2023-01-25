@@ -1,27 +1,25 @@
 using API.Dtos;
 using AutoMapper;
-using Infrastructure.Data;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
 using Microsoft.AspNetCore.Mvc;
 
-
 namespace API.Controllers;
 
-[ApiController]
-[Route("api/[controller]")]
-public class ProductsController : ControllerBase
+public class ProductsController : BaseApiController
 {
     private readonly IGenericRepository<Product> _productRepo;
     private readonly IGenericRepository<ProductBrand> _productBrandRepo;
     private readonly IGenericRepository<ProductType> _productTypeRepo;
     private readonly IMapper _mapper;
 
-
-    public ProductsController(IGenericRepository<Product> productRepo,
+    public ProductsController(
+        IGenericRepository<Product> productRepo,
         IGenericRepository<ProductBrand> productBrandRepo,
-        IGenericRepository<ProductType> productTypeRepo, IMapper mapper)
+        IGenericRepository<ProductType> productTypeRepo,
+        IMapper mapper
+    )
     {
         _productRepo = productRepo;
         _productBrandRepo = productBrandRepo;
@@ -34,7 +32,11 @@ public class ProductsController : ControllerBase
     {
         var spec = new ProductsWithTypesAndBrandsSpecification();
         var products = await _productRepo.ListAsync(spec);
-        return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products).ToList());
+        return Ok(
+            _mapper
+                .Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products)
+                .ToList()
+        );
     }
 
     [HttpGet("{id}")]
