@@ -21,6 +21,7 @@
     "bootstrap": "^4.6.2",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^8.0.0",
+    "ngx-toastr": "^14.3.0",
     "rxjs": "~7.5.0",
     "timers": "^0.1.1",
     "tslib": "^2.3.0",
